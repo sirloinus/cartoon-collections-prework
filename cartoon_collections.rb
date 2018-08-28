@@ -21,8 +21,11 @@ end
 
 def find_the_cheese(food)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  if food.include?(cheese_types)
+  if food.find do 
 end
 
 
-.detect{|i| i.even?}
+[1, 3, 5, 7].find do |num|
+  num.odd?
+end
+  => 1
