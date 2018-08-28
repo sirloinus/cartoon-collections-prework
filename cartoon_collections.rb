@@ -16,13 +16,6 @@ def long_planeteer_calls(calls)
   end
 end
 
-# words = ["are", "any", "of", "these", "words", "longer", "than", "four", "letters"]
-
-# words.any? do |word|
-#   word.length > 4
-# end
-#   #=> true
-
 def find_the_cheese(food)
   cheese_types = ["cheddar", "gouda", "camembert"]
   if food.find do |food|
