@@ -11,8 +11,9 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(calls)
-calls.any? do |call|
+  calls.any? do |call|
     call.length > 4
+  end
 end
 
 # words = ["are", "any", "of", "these", "words", "longer", "than", "four", "letters"]
