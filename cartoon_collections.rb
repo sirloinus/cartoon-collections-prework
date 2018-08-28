@@ -16,7 +16,8 @@ def long_planeteer_calls(calls)
     end
   
   else false 
-endend
+  end 
+end
 
 # words = ["are", "any", "of", "these", "words", "longer", "than", "four", "letters"]
 
