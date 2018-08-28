@@ -30,7 +30,3 @@ def find_the_cheese(food)
 end
 
 
-# [1, 3, 5, 7].find do |num|
-#   num.odd?
-# end
-#   => 1
