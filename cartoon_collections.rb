@@ -14,9 +14,9 @@ def long_planeteer_calls(calls)
   if calls.any? do |call|
     call.length > 4
     end
-  end
+  
   else false 
-end
+endend
 
 # words = ["are", "any", "of", "these", "words", "longer", "than", "four", "letters"]
 
